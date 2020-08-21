@@ -1,0 +1,7 @@
+version: 1
+job:
+  type: "recon"
+source:
+  endpoint: "jdbc_2"
+  properties:
+    sql: ""

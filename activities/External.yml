@@ -1,0 +1,32 @@
+version: 1
+job:
+  type: "external"
+config:
+  endpoint: "databricks_2"
+  properties:
+    task: "notebook"
+    task_properties:
+      notebook_path: "notebook_path"
+      revision_timestamp: "234"
+      parameters:
+        a: "a"
+        b: "b"
+        c: "c"
+    timeout_seconds: 23
+    run_name: "run_name"
+    libraries:
+    - type: "jar"
+      file_path: "path1"
+    - type: "egg"
+      file_path: "egg-2"
+    - type: "pypi"
+      package: "pypi_pack"
+      repo: "pypi_repo"
+    - type: "maven"
+      coordinates: "m_cor"
+      repo: "mav_repo"
+      exclusions:
+      - "mav:excl"
+    - type: "cran"
+      package: "cr_pack"
+      repo: "cr_repo"

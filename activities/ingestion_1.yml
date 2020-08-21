@@ -1,0 +1,11 @@
+version: 1
+job:
+  type: "ingestion"
+source:
+  endpoint: "LFS_1"
+  properties:
+    format: "fixed"
+    charset: "UTF-8"
+    source_file_pattern: "/csv"
+    format_properties:
+      contains_header: true

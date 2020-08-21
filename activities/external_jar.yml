@@ -1,0 +1,20 @@
+version: 1
+job:
+  type: "external"
+config:
+  endpoint: "databricks_1"
+  properties:
+    task: "jar"
+    task_properties:
+      main_class: "mainClass.scala"
+      parameters:
+      - "abcd"
+      - "pqrs"
+    timeout_seconds: 43
+    run_name: "name"
+    libraries:
+    - type: "maven"
+      coordinates: "maven_cor"
+      repo: "maven_repo"
+      exclusions:
+      - "maven_excl"

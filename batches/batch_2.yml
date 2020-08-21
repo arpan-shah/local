@@ -1,0 +1,18 @@
+version: 1
+context_stage_mappings:
+- context:
+    location: "abcde"
+  period: 1
+  stages:
+  - name: "STG"
+    validate_sql: "p >q"
+  - name: "SNP"
+    validate_sql: "L < M"
+- context:
+    location: "pqr"
+  period: 1
+  stages:
+  - name: "OUT"
+    validate_sql: "aaa"
+additional_param:
+- "location"

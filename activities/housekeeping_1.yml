@@ -1,0 +1,14 @@
+version: 1
+job:
+  type: "housekeeping"
+housekeeping:
+  operation: "delete"
+  properties: {}
+  endpoint: "hive_1"
+  reference_point:
+    reference_type: "current_time"
+  retention_strategies:
+  - partitions:
+    - a: "a"
+    day_of_week: 3
+    strict_retention_period_end: false
