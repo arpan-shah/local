@@ -2,19 +2,7 @@ version: 1
 job:
   type: "external"
 config:
-  endpoint: "databricks_2"
+  endpoint: "lo_ADF_new"
   properties:
-    task: "python"
-    task_properties:
-      parameters:
-      - "aa"
-      - "a"
-      python_script_path: "a"
-    libraries:
-    - type: "maven"
-      coordinates: "p"
-      repo: "qr"
-      exclusions:
-      - "r"
-    - type: "egg"
-      file_path: "egg"
+    parameters:
+      k: "knkn\n,mm"

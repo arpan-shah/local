@@ -1,3 +1,18 @@
 version: 1
 job:
   type: "external"
+  tags:
+  - "aTag"
+  description: "tagDec"
+config:
+  endpoint: "databricks_1"
+  properties:
+    task: "notebook"
+    task_properties:
+      notebook_path: "abcd"
+      parameters:
+        a: "a"
+        b: "b"
+    libraries:
+    - type: "jar"
+      file_path: "aaa"

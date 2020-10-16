@@ -1,0 +1,17 @@
+description: ""
+version: 1
+properties: {}
+jobs:
+- ingestion_3:
+    job_parameters:
+      a: "a"
+      jh: "hu"
+- external_jar:
+    job_parameters:
+      p: "p"
+      k: "k"
+      o: "o"
+- ingestion_2:
+    job_parameters:
+      a: "aa"
+parallel: 1

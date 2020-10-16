@@ -1,0 +1,52 @@
+source:
+  endpoint: "recent_1"
+  properties:
+    format: "delimited"
+    format_properties:
+      infer_schema: false
+      quote_delimiter: "\""
+      column_delimiter: ","
+      escape_char: "\\\\"
+      contains_header: true
+    source_file_pattern: "csv/users1.csv"
+    charset: "UTF-8"
+    partial_load: false
+job:
+  type: "ingestion"
+reject:
+  endpoint: "recent_1"
+  properties:
+    format: "delimited"
+    path: "reject"
+    format_properties:
+      column_delimiter: ","
+      quote_delimiter: "\""
+      contains_header: true
+      merge_file: false
+    charset: "UTF-8"
+    preserve_hierarchy: false
+  failure_threshold: 100
+version: 1
+schema:
+  strict_schema_check: true
+  schema_derivation_strategy: "source"
+  discard: true
+  columns:
+  - name: "first_name"
+    nullable:
+      value: true
+    data_type:
+      value: "int"
+      validate: true
+target:
+  endpoint: "recent_1"
+  properties:
+    format: "delimited"
+    path: "target"
+    format_properties:
+      column_delimiter: ","
+      quote_delimiter: "\""
+      merge_file: false
+      contains_header: true
+    charset: "UTF-8"
+    preserve_hierarchy: false

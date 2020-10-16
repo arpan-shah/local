@@ -1,0 +1,8 @@
+version: 1
+job:
+  type: "ingestion"
+source:
+  endpoint: "recent_1"
+  properties:
+    format: "json"
+    charset: "UTF-8"

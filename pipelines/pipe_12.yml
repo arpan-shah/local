@@ -1,6 +1,5 @@
 description: ""
 version: 1
 properties: {}
-jobs:
-- "ingestion_3"
-parallel: 23
+jobs: []
+parallel: 1

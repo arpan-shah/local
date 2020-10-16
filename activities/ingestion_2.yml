@@ -2,9 +2,13 @@ version: 1
 job:
   type: "ingestion"
 source:
-  endpoint: "jdbc_1"
+  endpoint: "lfs_7"
   properties:
-    pre_sql:
-    - "aa"
-    post_sql:
-    - "bb"
+    format: "text"
+    format_properties:
+      parser:
+        type: "regex"
+    processed_file_path: "processed/"
+    charset: "UTF-8"
+    control_file:
+      extension: "ctl"

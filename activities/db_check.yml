@@ -1,0 +1,37 @@
+version: 1
+job:
+  type: "external"
+config:
+  endpoint: "databricks_datastore"
+  properties:
+    task: "python"
+    task_properties:
+      python_script_path: "path"
+      parameters:
+      - "asa"
+      - "asasas"
+    timeout_seconds: 123
+    run_name: "Arpan_test"
+    libraries:
+    - type: "jar"
+      file_path: "jar1"
+    - type: "egg"
+      file_path: "egg1"
+    - type: "whl"
+      file_path: "whl1"
+    - type: "pypi"
+      package: "py_pack1"
+      repo: "py_repo1"
+    - type: "maven"
+      coordinates: "ma_co1"
+      repo: "ma_repo1"
+      exclusions:
+      - "ma:excl1"
+    - type: "cran"
+      package: "cr_pack1"
+      repo: "cr_repo1"
+    - type: "maven"
+      coordinates: "a"
+      repo: "b"
+      exclusions:
+      - "c"
