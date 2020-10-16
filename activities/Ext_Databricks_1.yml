@@ -10,7 +10,7 @@ config:
       - "sdsd"
       - "asas"
     timeout_seconds: 23
-    run_name: "run name"
+    run_name: "run name1"
     libraries:
     - type: "whl"
       file_path: "c1"
