@@ -1,6 +1,7 @@
 description: ""
 version: 1
-properties: {}
+properties:
+  auto_dependency: false
 jobs:
 - "ingestion_3"
-parallel: 23
+parallel: 231

@@ -10,7 +10,7 @@ config:
       parameters:
       - "abcd"
       - "pqrs"
-    timeout_seconds: 43
+    timeout_seconds: 143
     run_name: "name"
     libraries:
     - type: "maven"

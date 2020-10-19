@@ -5,4 +5,8 @@ source:
   endpoint: "recent_1"
   properties:
     format: "json"
+    format_properties:
+      multiline: false
+    source_file_pattern: "s"
     charset: "UTF-8"
+    partial_load: false
