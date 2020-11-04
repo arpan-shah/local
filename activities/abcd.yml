@@ -5,3 +5,4 @@ source:
   endpoint: "jdbc_1"
   properties:
     table: "users"
+    filter: "jjj"
