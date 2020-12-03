@@ -2,7 +2,7 @@ version: 1
 job:
   type: "external"
 config:
-  endpoint: "lo_ADF"
+  endpoint: "ADF1"
   properties:
     pipeline_name: "pipe name"
     parameters:
