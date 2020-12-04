@@ -2,8 +2,7 @@ version: 1
 description: ""
 properties:
   auto_dependency: false
-jobs:
-- "act_ADF"
+jobs: []
 parallel: 20
 spark_properties:
   spark_version: "7.4.x-gpu-ml-scala2.12"
