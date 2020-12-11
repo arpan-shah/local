@@ -6,4 +6,4 @@ source:
   properties:
     table: "users33"
     filter: "jjj"
-folder: "folder1"
+folder: "folder1/folder11"
