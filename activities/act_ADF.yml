@@ -8,3 +8,4 @@ config:
     parameters:
       pipe_name: "pipe_value"
       pipe_name1: "pipe_value1"
+folder: "folder2/folder21/folder211"
