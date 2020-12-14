@@ -35,3 +35,4 @@ config:
       repo: "b"
       exclusions:
       - "c"
+folder: "folder1/folder11/folder111"
