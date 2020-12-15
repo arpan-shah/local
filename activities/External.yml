@@ -30,4 +30,4 @@ config:
     - type: "cran"
       package: "cr_pack"
       repo: "cr_repo"
-folder: "folder3"
+folder: "folder2"
