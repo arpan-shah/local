@@ -16,3 +16,4 @@ config:
     libraries:
     - type: "jar"
       file_path: "aaa"
+folder: "folder3/folder31/folder311/folder3111/folder311111/folder3111111/folder37/folder38/folderrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr/folder310/fold311/fold312/fold313/fold/314/fold315/fold316/fold317/fold318/fold319/fold320"
