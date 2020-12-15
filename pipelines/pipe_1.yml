@@ -1,5 +1,6 @@
 version: 1
 description: ""
+folder: "folder1/folder11"
 properties:
   auto_dependency: false
 jobs: []
