@@ -12,4 +12,4 @@ source:
     charset: "UTF-8"
     control_file:
       extension: "ctl"
-folder: "folder2"
+folder: "folder1"
