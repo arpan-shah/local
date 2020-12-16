@@ -1,0 +1,6 @@
+version: 1
+description: ""
+folder: "folder1"
+properties: {}
+jobs: []
+parallel: 1
