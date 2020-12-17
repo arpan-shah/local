@@ -11,3 +11,4 @@ context_stage_mappings:
   - name: "CALC"
   - name: "SNP"
   context: {}
+folder: "folder"
