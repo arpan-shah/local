@@ -1,2 +1,3 @@
 version: 1
 technology: "azure-synapse-analytics"
+folder: "ds_folder2"
