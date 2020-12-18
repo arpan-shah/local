@@ -1,6 +1,8 @@
 version: 1
 job:
   type: "external"
+  tags:
+  - "abcd"
 config:
   endpoint: "databricks_datastore"
   properties:
