@@ -1,8 +1,0 @@
-description: ""
-version: 1
-properties:
-  auto_dependency: false
-jobs:
-- "abcd"
-- "constraint_1"
-parallel: 1
