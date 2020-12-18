@@ -4,15 +4,11 @@ job:
 source:
   endpoint: "recent_1"
   properties:
-    format: "delimited"
+    format: "json"
     charset: "UTF-8"
     partial_load: false
     format_properties:
-      infer_schema: false
-      quote_delimiter: "\""
-      column_delimiter: ","
-      escape_char: "\\\\"
-      contains_header: true
+      multiline: false
 schema:
   strict_schema_check: true
   schema_derivation_strategy: "source"
