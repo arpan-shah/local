@@ -1,8 +1,6 @@
-version: 1
 description: ""
-folder: "folder1/folder11/folder111/folder1111/folder11111"
-properties:
-  auto_dependency: false
+version: 1
+properties: {}
 jobs:
 - ingestion_3:
     job_parameters:

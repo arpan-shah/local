@@ -4,8 +4,5 @@ context_stage_mappings:
   context: {}
   stages:
   - name: "STG"
-    validate_sql: "a>1"
-  - name: "SNP"
-    validate_sql: "b < 2"
   stage_pairs:
   - "STG,FND,SNP"

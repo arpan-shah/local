@@ -2,8 +2,6 @@ version: 1
 job:
   type: "external"
 config:
-  endpoint: "lo_ADF_new"
+  endpoint: "databricks_1"
   properties:
-    parameters:
-      k: "knkn\n,mm"
-folder: "folder3/folder31/folder311/folder3111/folder311111/folder3111111/folder37/folder38/folderrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+    task: "notebook"

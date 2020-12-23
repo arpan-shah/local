@@ -1,11 +1,5 @@
-version: 1
 description: ""
-folder: "folder1/folder11"
-properties:
-  auto_dependency: false
+version: 1
+properties: {}
 jobs: []
 parallel: 20
-spark_properties:
-  spark_version: "7.4.x-gpu-ml-scala2.12"
-  num_executors: 2
-  driver_memory: "2G"

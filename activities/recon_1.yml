@@ -5,4 +5,3 @@ source:
   endpoint: "jdbc_2"
   properties:
     sql: ""
-folder: "folder1/folder11/folder111/folder1111/folder11111"

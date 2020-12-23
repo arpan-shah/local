@@ -8,4 +8,3 @@ config:
     parameters:
       a: "a"
       b: "b"
-folder: "folder1"

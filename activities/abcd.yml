@@ -4,6 +4,7 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    table: "select 1 as id, 'ar' as name \nUNION ALL \nselect 2 as id, 'pr' as name \nUNION ALL \nselect 3 as id, 'nk' as name"
-    filter: "jjj"
-folder: "folder1/folder11/folder111/folder1111/folder11111"
+    table: |-
+      select * from users
+      union all
+      select * from employee

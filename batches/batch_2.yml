@@ -1,14 +1,4 @@
 version: 1
-context_stage_mappings:
-- stages:
-  - name: "STG"
-    rerun_batch: true
-    job_groups:
-    - "pipe_3"
-    - "pipe_7"
-    - "pipe_1"
-  - name: "FND"
-  - name: "CALC"
-  - name: "SNP"
-  context: {}
-folder: "folder"
+context_stage_mappings: []
+additional_param:
+- "location"
