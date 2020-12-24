@@ -4,7 +4,4 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    table: |-
-      select * from users
-      union all
-      select * from employee
+    query: ""
