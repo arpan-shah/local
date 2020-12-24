@@ -1,3 +1,7 @@
 version: 1
 job:
   type: "processing"
+source:
+  endpoint: "hive_1"
+  incremental: false
+  properties: {}
