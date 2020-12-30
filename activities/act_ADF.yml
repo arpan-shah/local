@@ -5,3 +5,5 @@ config:
   endpoint: "databricks_datastore"
   properties:
     task: "notebook"
+    task_properties:
+      notebook_path: "arpan"
