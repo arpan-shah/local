@@ -2,9 +2,6 @@ version: 1
 job:
   type: "external"
 config:
-  endpoint: "lo_ADF"
+  endpoint: "databricks_datastore"
   properties:
-    pipeline_name: "pipe name"
-    parameters:
-      pipe_name: "pipe_value"
-      pipe_name1: "pipe_value1"
+    task: "notebook"
