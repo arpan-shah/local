@@ -67,4 +67,4 @@ source:
         ) unique_job_instance_ids
         LEFT JOIN job_info job_info_records ON unique_job_instance_ids.job_instance_id = job_info_records.job_instance_idORDER BY job_instance_id desc
     - "select pqr from test"
-    query: ""
+    query: "arpan"
