@@ -1,7 +1,34 @@
 version: 1
 job:
   type: "ingestion"
+source:
+  endpoint: "test_job_run"
+  properties:
+    format: "delimited"
+    format_properties:
+      infer_schema: false
+      quote_delimiter: "\""
+      column_delimiter: ","
+      escape_char: "\\\\"
+      contains_header: true
+      clean_column_name: false
+    source_file_pattern: "csv/users1.csv"
+    charset: "UTF-8"
+    partial_load: false
 schema:
   strict_schema_check: true
   schema_derivation_strategy: "source"
   discard: true
+target:
+  endpoint: "test_job_run"
+  properties:
+    format: "delimited"
+    path: "result"
+    format_properties:
+      quote_delimiter: "\""
+      column_delimiter: ","
+      escape_char: "\\\\"
+      contains_header: true
+      merge_file: false
+    charset: "UTF-8"
+    preserve_hierarchy: false
