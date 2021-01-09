@@ -4,13 +4,13 @@ job:
 config:
   endpoint: "databricks_2"
   properties:
+    run_name: "run name"
+    timeout_seconds: 24
     task: "jar"
     task_properties:
       parameters:
       - "sdsd"
       - "asas"
-    timeout_seconds: 24
-    run_name: "run name"
     libraries:
     - type: "whl"
       file_path: "c1"
@@ -33,3 +33,4 @@ config:
       repo: "a"
       exclusions:
       - "a"
+folder: "empty"
