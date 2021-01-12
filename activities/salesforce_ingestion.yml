@@ -1,14 +1,12 @@
-version: 1
-
+folder: "folder1/folder11/folder111/folder1111/folder11111"
 job:
-  type: ingestion
-
+  type: "ingestion"
 source:
-  endpoint: lo_salesforce
+  endpoint: "lo_salesforce"
   properties:
     query: "SELECT id, firstname, lastname, company, CreatedDate FROM Lead"
-
 target:
-  endpoint: lo_hive
+  endpoint: "lo_hive"
   properties:
-    table: sfdata
+    table: "sfdata"
+version: 1
