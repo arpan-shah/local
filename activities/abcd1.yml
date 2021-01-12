@@ -29,6 +29,8 @@ schema:
       value: true
   - name: "bbb"
     transform_sql:
-      value: a\nb
+      value: |-
+        a
+        b
     nullable:
       value: true
