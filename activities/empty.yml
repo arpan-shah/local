@@ -7,6 +7,9 @@ source:
     query: "select \n* \nfrom \nusers \nwhere id > 10\nselect \n* \nfrom \nusers \nwhere id > 10\nselect \n* \nfrom \nusers \nwhere id > 10\nselect \n* \nfrom \nusers \nwhere id > 10"
     format_properties:
       clean_column_name: false
+  incremental_load:
+    watermarking_key_columns:
+    - "1"
 schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
