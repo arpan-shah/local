@@ -1,9 +1,8 @@
-version: 1
-job:
-  type: "external"
 config:
   endpoint: "databricks_2"
   properties:
+    run_name: "run_name"
+    timeout_seconds: 23
     task: "notebook"
     task_properties:
       notebook_path: "notebook_path"
@@ -12,8 +11,6 @@ config:
         a: "a"
         b: "b"
         c: "c"
-    timeout_seconds: 23
-    run_name: "run_name"
     libraries:
     - type: "jar"
       file_path: "path1"
@@ -30,3 +27,7 @@ config:
     - type: "cran"
       package: "cr_pack"
       repo: "cr_repo"
+folder: "a"
+job:
+  type: "external"
+version: 1
