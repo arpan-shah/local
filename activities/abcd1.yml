@@ -27,3 +27,8 @@ schema:
         c
     nullable:
       value: true
+  - name: "bbb"
+    transform_sql:
+      value: "a\\nb/nc"
+    nullable:
+      value: true
