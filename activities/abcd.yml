@@ -1,4 +1,4 @@
-folder: "empty"
+folder: "folder1"
 job:
   type: "ingestion"
 source:
