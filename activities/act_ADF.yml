@@ -1,9 +1,10 @@
-version: 1
-job:
-  type: "external"
 config:
   endpoint: "databricks_datastore"
   properties:
     task: "notebook"
     task_properties:
       notebook_path: "arpan"
+folder: "empty"
+job:
+  type: "external"
+version: 1
