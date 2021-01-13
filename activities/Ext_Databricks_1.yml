@@ -30,7 +30,7 @@ config:
       repo: "a"
       exclusions:
       - "a"
-folder: "folder1"
+folder: "empty"
 job:
   type: "external"
 version: 1
