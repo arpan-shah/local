@@ -1,4 +1,4 @@
-folder: "empty_check"
+folder: "folder1"
 job:
   type: "ingestion"
 schema:
