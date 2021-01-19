@@ -4,7 +4,31 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    query: "select \n* \nfrom \n\nusers \n\nwhere id > 10\nselect \n* \nfrom \nusers \nwhere id > 10\nselect \n* \nfrom \nusers \nwhere id > 10\nselect \n* \nfrom \nusers \nwhere id > 10"
+    query: |-
+      select
+        *
+      from
+        users
+      where
+        id > 10
+      select
+        *
+      from
+        users
+      where
+        id > 10
+      select
+        *
+      from
+        users
+      where
+        id > 10
+      select
+        *
+      from
+        users
+      where
+        id > 10
     format_properties:
       clean_column_name: false
 schema:
