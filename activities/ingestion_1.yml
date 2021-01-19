@@ -18,10 +18,7 @@ schema:
   columns:
   - name: a
     transform_sql:
-      value: |-
-        a
-         b
-        c
+      value: "a \n b\nc"
     nullable:
       value: true
 target:
