@@ -4,8 +4,8 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    query: |-
-      select
+    query: |2-
+       select
        case when prog.acad_career is null then n else y end as prog_flg,
        tmp.*
        from ${p_amdm_sri_db}.sri_stg_istudent_term tmp
