@@ -4,7 +4,7 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    query: "select * from abcd"
+    query: "select \n*\nfrom\nabcd"
     format_properties:
       clean_column_name: false
 schema:
