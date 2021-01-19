@@ -8,7 +8,7 @@ source:
       select
        *
         from
-         abcd
+        abcd
     format_properties:
       clean_column_name: false
 schema:
