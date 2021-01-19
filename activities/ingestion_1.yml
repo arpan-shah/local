@@ -6,9 +6,9 @@ source:
   properties:
     query: |-
       select
-       *
-        from
-        abcd
+      *
+      From
+      abcd
     format_properties:
       clean_column_name: false
 schema:
