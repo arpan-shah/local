@@ -4,7 +4,13 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    query: " select \n  case when prog.acad_career is null then \"N\" else \"Y\" end as prog_flg ,\n  tmp.*\nfrom ${p_amdm_sri_db}.sri_stg_istudent_term tmp \nleft join (select distinct acad_career  from ${p_amdm_sri_db}.sri_istudent_acad_prog  where w_business_date = cast('${business_date}' as date) and w_batch_id = '${batch_id}') prog \n  on tmp.acad_career = prog.acad_career"
+    query: |-
+      select
+       case when prog.acad_career is null then "N" else "Y" end as prog_flg,
+       tmp.*
+       from ${p_amdm_sri_db}.sri_stg_istudent_term tmp
+       left join (select distinct acad_career  from ${p_amdm_sri_db}.sri_istudent_acad_prog  where w_business_date = cast('${business_date}' as date) and w_batch_id = '${batch_id}') prog
+       on tmp.acad_career = prog.acad_career
     format_properties:
       clean_column_name: false
 schema:
