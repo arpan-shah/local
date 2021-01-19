@@ -11,6 +11,15 @@ schema:
   schema_derivation_strategy: source
   strict_schema_check: true
   discard: true
+  columns:
+  - name: a
+    transform_sql:
+      value: |-
+        a
+        b
+        c
+    nullable:
+      value: true
 target:
   endpoint: LFS_1
   properties:
