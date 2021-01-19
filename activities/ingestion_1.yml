@@ -4,11 +4,7 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    query: |-
-      select
-      *
-      From
-      abcd
+    query: "select * From abcd"
     format_properties:
       clean_column_name: false
 schema:
