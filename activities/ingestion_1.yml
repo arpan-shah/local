@@ -8,7 +8,6 @@ source:
       select
         case when prog.acad_career is null then "N" else "Y" end as prog_flg,
 
-
         tmp.*
       from
         ${p_amdm_sri_db}.sri_stg_istudent_term tmp
