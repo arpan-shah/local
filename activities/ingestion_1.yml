@@ -1,30 +1,30 @@
 version: 1
 job:
-  type: ingestion
+  type: "ingestion"
 source:
-  endpoint: jdbc_1
+  endpoint: "jdbc_1"
   properties:
-    query: "select\n  case when prog.acad_career is null then \"N\" else \"Y\" end as prog_flg,\n  tmp.*\nfrom\n  ${p_amdm_sri_db}.sri_stg_istudent_term tmp\n  left join (\n    select\n      distinct acad_career\n    from\n      ${p_amdm_sri_db}.sri_istudent_acad_prog\n    where\n      w_business_date = cast('${business_date}' as date)\n      and w_batch_id = '${batch_id}'\n  ) prog on tmp.acad_career = prog.acad_career"
+    query: "select\n  case \n    when prog.acad_career is null then \"N\" \n    else \"Y\" \n  end as prog_flg,\n  tmp.*\nfrom\n  ${p_amdm_sri_db}.sri_stg_istudent_term tmp\n  left join (\n    select\n      distinct acad_career\n    from\n      ${p_amdm_sri_db}.sri_istudent_acad_prog\n    where\n      w_business_date = cast('${business_date}' as date)\n      and w_batch_id = '${batch_id}'\n  ) prog on tmp.acad_career = prog.acad_career"
     format_properties:
       clean_column_name: false
 schema:
-  schema_derivation_strategy: source
+  schema_derivation_strategy: "source"
   strict_schema_check: true
   discard: true
   columns:
-  - name: a
+  - name: "a"
     transform_sql:
       value: "a \n b\nc"
     nullable:
       value: true
 target:
-  endpoint: LFS_1
+  endpoint: "LFS_1"
   properties:
-    format: delimited
-    charset: UTF-8
-    path: /csv
+    format: "delimited"
+    charset: "UTF-8"
+    path: "/csv"
     format_properties:
       column_delimiter: ","
-      quote_delimiter: '"'
+      quote_delimiter: "\""
       contains_header: true
       merge_file: true
