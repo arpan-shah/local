@@ -5,29 +5,8 @@ source:
   endpoint: "jdbc_1"
   properties:
     query: |-
-      insert into ${p_amdm_fnd_db}.student
-      select student_id
-      , original_student_id
-      , gender
-      , birth_date
-      , race
-      , citizenship
-      , nationality
-      , ns_status
-      , marital_status
-      , housing_type
-      , household_income
-      , disability_ite
-      , disability_moe
-      , effective_start_date
-      , effective_end_date
-      , w_mapped_flag
-      , w_src_file_name
-      , w_refresh_ts
-      , w_job_instance_id
-      , w_data_src_id
-      , w_batch_id
-      , cast('${business_date}' as date) as w_business_date
+      select
+      *
       from ${p_amdm_fnd_db}.student where w_business_date = cast('${LAST_BUSINESS_DATE}' as date)
     format_properties:
       clean_column_name: false
