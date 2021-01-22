@@ -17,7 +17,10 @@ schema:
   columns:
   - name: "a"
     transform_sql:
-      value: "a \n b\nc"
+      value: |-
+        select
+        *
+        from ${p_amdm_fnd_db}.student where w_business_date = cast('${LAST_BUSINESS_DATE}' as date)
     nullable:
       value: true
 target:
