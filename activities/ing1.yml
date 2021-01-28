@@ -2,7 +2,7 @@ version: 1
 job:
   type: "ingestion"
 schema:
-  strict_schema_check: true
   schema_derivation_strategy: "source"
+  strict_schema_check: true
   discard: true
-folder: "folder1/folder11"
+folder: "/folder1/folder11"
