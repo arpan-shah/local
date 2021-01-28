@@ -1,5 +1,6 @@
-description: ""
 version: 1
+description: ""
+parallel: 1
 properties: {}
 jobs:
 - ingestion_3:
@@ -8,10 +9,10 @@ jobs:
       jh: "hu"
 - external_jar:
     job_parameters:
-      p: "p"
       k: "k"
       o: "o"
+      p: "p"
 - ingestion_2:
     job_parameters:
       a: "aa"
-parallel: 1
+folder: "/folder2"
