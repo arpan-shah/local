@@ -15,4 +15,4 @@ jobs:
 - ingestion_2:
     job_parameters:
       a: "aa"
-folder: "/folder2"
+folder: "/"
