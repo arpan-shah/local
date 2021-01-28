@@ -1,5 +1,6 @@
-description: ""
 version: 1
+description: ""
+parallel: 20
 properties: {}
 jobs: []
-parallel: 20
+folder: "/folder2"
