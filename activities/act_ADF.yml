@@ -4,7 +4,7 @@ config:
     task: "notebook"
     task_properties:
       notebook_path: "arpan"
-folder: "not empty"
+folder: "folder2/folder23"
 job:
   type: "external"
 version: 1
