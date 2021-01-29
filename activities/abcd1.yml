@@ -34,4 +34,4 @@ schema:
         b
     nullable:
       value: true
-folder: "//abc///xyz/abc1"
+folder: "/folder1/folder2/folder3/a%b"
