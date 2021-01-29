@@ -1,8 +1,0 @@
-version: 1
-job:
-  type: "constraint_checks"
-source:
-  endpoint: "jdbc_1"
-  properties:
-    sql: ""
-folder: "folder1/folder11/folder111/folder1111/folder11111"
