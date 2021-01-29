@@ -1,4 +1,5 @@
 version: 1
-context_stage_mappings: []
 additional_param:
 - "location"
+context_stage_mappings: []
+folder: "a/r/p//a//n"
