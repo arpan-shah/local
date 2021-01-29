@@ -1,3 +1,6 @@
+version: 1
+job:
+  type: "external"
 config:
   endpoint: "databricks_2"
   properties:
@@ -30,7 +33,4 @@ config:
       repo: "a"
       exclusions:
       - "a"
-folder: "not empty"
-job:
-  type: "external"
-version: 1
+folder: "/a/r/p/a/n/"
