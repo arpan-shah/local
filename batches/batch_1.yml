@@ -1,8 +1,9 @@
 version: 1
 context_stage_mappings:
-- period: 1
-  context: {}
-  stages:
-  - name: "STG"
+- context: {}
   stage_pairs:
   - "STG,FND,SNP"
+  stages:
+  - name: "STG"
+  period: 1
+folder: "/folder1/folder2"
