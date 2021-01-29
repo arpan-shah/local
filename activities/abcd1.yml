@@ -34,4 +34,4 @@ schema:
         b
     nullable:
       value: true
-folder: "/folder1/folder2/folder3/a%b"
+folder: "/folder1/folder2/folder3/a*b"
