@@ -1,0 +1,4 @@
+version: 1
+job:
+  type: "processing"
+folder: "/a/r/p/a/n"
