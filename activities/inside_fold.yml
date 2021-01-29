@@ -1,6 +1,10 @@
-version: 1
+folder: "/fold"
 job:
   type: "ingestion"
+schema:
+  schema_derivation_strategy: "source"
+  strict_schema_check: true
+  discard: true
 source:
   endpoint: "recent_1"
   properties:
@@ -14,8 +18,4 @@ source:
       contains_header: true
       infer_schema: false
       clean_column_name: false
-schema:
-  schema_derivation_strategy: "source"
-  strict_schema_check: true
-  discard: true
-folder: "/"
+version: 1
