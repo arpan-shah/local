@@ -32,7 +32,7 @@ config:
       repo: "b"
       exclusions:
       - "c"
-folder: "folder2/folder21/folder22"
+folder: "folder3/folder21/folder22"
 job:
   type: "external"
 version: 1
