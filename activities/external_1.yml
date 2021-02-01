@@ -1,10 +1,10 @@
-version: 1
-job:
-  type: "external"
-  tags:
-  - "search"
 config:
   endpoint: "databricks_1"
   properties:
     task: "notebook"
-folder: "/1/2/3"
+folder: "/"
+job:
+  type: "external"
+  tags:
+  - "search"
+version: 1
