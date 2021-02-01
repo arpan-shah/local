@@ -1,7 +1,8 @@
-version: 1
+folder: "folder2/folder21"
 job:
   type: "constraint_checks"
 source:
   endpoint: "jdbc_1"
   properties:
     sql: ""
+version: 1
