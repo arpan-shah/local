@@ -1,4 +1,4 @@
-folder: "folder2/folder21"
+folder: "folder3/folder21"
 job:
   type: "constraint_checks"
 source:
