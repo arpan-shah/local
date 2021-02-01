@@ -1,17 +1,14 @@
-version: 1
-job:
-  type: "external"
 config:
   endpoint: "databricks_datastore"
   properties:
+    run_name: "Arpan_test"
+    timeout_seconds: 123
     task: "python"
     task_properties:
-      python_script_path: "path"
       parameters:
       - "asa"
       - "asasas"
-    timeout_seconds: 123
-    run_name: "Arpan_test"
+      python_script_path: "path"
     libraries:
     - type: "jar"
       file_path: "jar1"
@@ -35,3 +32,7 @@ config:
       repo: "b"
       exclusions:
       - "c"
+folder: "folder2/folder21/folder22"
+job:
+  type: "external"
+version: 1
