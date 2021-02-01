@@ -1,4 +1,4 @@
-version: 1
+folder: "folder1"
 job:
   type: "ingestion"
 source:
@@ -6,3 +6,4 @@ source:
   properties:
     table: "users33"
     filter: "jjj"
+version: 1
