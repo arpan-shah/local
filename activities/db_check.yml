@@ -32,7 +32,7 @@ config:
       repo: "b"
       exclusions:
       - "c"
-folder: "a6/folder21/b1"
+folder: "a6/folder21/arpan"
 job:
   type: "external"
 version: 1
