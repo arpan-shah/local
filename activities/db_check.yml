@@ -5,7 +5,7 @@ config:
   endpoint: "databricks_datastore"
   properties:
     run_name: "Arpan_test"
-    timeout_seconds: 124
+    timeout_seconds: 1245
     task: "python"
     task_properties:
       parameters:
