@@ -1,8 +1,11 @@
+version: 1
+job:
+  type: "external"
 config:
   endpoint: "databricks_datastore"
   properties:
     run_name: "Arpan_test"
-    timeout_seconds: 1245
+    timeout_seconds: 1244
     task: "python"
     task_properties:
       parameters:
@@ -33,6 +36,3 @@ config:
       exclusions:
       - "c"
 folder: "a6/folder21/b"
-job:
-  type: "external"
-version: 1
