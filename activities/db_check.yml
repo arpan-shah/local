@@ -1,6 +1,3 @@
-version: 1
-job:
-  type: "external"
 config:
   endpoint: "databricks_datastore"
   properties:
@@ -35,4 +32,7 @@ config:
       repo: "b"
       exclusions:
       - "c"
-folder: "a6/folder21/arpan"
+folder: "a6/folder21/as"
+job:
+  type: "external"
+version: 1
