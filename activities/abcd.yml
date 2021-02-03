@@ -1,4 +1,4 @@
-version: 1
+folder: "b6"
 job:
   type: "ingestion"
 source:
@@ -8,4 +8,4 @@ source:
     filter: "jjj"
     format_properties:
       clean_column_name: false
-folder: "a6"
+version: 1
