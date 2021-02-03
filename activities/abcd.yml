@@ -1,11 +1,11 @@
-folder: "a6"
+version: 1
 job:
   type: "ingestion"
 source:
   endpoint: "jdbc_1"
   properties:
     table: "users333"
-    filter: "jjj"
+    filter: "jjjj"
     format_properties:
       clean_column_name: false
-version: 1
+folder: "a6"
