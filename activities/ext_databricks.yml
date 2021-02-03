@@ -10,7 +10,7 @@ config:
     libraries:
     - type: "jar"
       file_path: "aaa"
-folder: "a6/folder21/aq/az"
+folder: "b6/folder21/aq/az"
 job:
   type: "external"
   tags:
