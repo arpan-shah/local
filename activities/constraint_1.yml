@@ -1,4 +1,4 @@
-folder: "b6/folder21"
+folder: "b6/f_rename"
 job:
   type: "constraint_checks"
 source:
