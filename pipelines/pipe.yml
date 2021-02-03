@@ -15,3 +15,4 @@ jobs:
     job_parameters:
       a: "aa"
 parallel: 1
+folder: "check"

@@ -1,8 +1,10 @@
-folder: "a6/folder21"
+version: 1
 job:
   type: "constraint_checks"
 source:
   endpoint: "jdbc_1"
+  primary_keys:
+  - "1"
   properties:
     sql: ""
-version: 1
+folder: "a6/folder21"
