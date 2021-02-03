@@ -4,8 +4,8 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    table: "users333"
-    filter: "jjjj"
+    table: "users3333"
+    filter: "jjj"
     format_properties:
       clean_column_name: false
 folder: "a6"
