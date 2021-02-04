@@ -1,10 +1,13 @@
 version: 1
+metadata:
+  tags:
+  - "pipe tag"
 description: ""
+parallel: 20
 properties:
   auto_dependency: false
 jobs: []
-parallel: 20
 spark_properties:
-  spark_version: "7.4.x-gpu-ml-scala2.12"
   num_executors: 2
   driver_memory: "2G"
+  spark_version: "7.4.x-gpu-ml-scala2.12"
