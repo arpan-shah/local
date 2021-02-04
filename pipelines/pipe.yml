@@ -1,6 +1,11 @@
-description: ""
 version: 1
-properties: {}
+metadata:
+  tags:
+  - "pipe"
+description: ""
+parallel: 1
+properties:
+  auto_dependency: false
 jobs:
 - ingestion_3:
     job_parameters:
@@ -8,11 +13,10 @@ jobs:
       jh: "hu"
 - external_jar:
     job_parameters:
-      p: "p"
       k: "k"
       o: "o"
+      p: "p"
 - ingestion_2:
     job_parameters:
       a: "aa"
-parallel: 1
 folder: "check"
