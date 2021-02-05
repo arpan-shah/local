@@ -32,7 +32,7 @@ config:
       repo: "b"
       exclusions:
       - "c"
-folder: "b8/f_rename/c1"
+folder: "b8/f_rename/c4"
 job:
   type: "external"
 version: 1
