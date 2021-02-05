@@ -1,4 +1,4 @@
-folder: "b7"
+version: 1
 job:
   type: "ingestion"
   tags:
@@ -6,8 +6,8 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    table: "users3333"
+    table: "1"
     filter: "jjj"
     format_properties:
       clean_column_name: false
-version: 1
+folder: "b7"
