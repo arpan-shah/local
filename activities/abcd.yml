@@ -1,4 +1,4 @@
-version: 1
+folder: "b8"
 job:
   type: "ingestion"
   tags:
@@ -10,4 +10,4 @@ source:
     filter: "jjj"
     format_properties:
       clean_column_name: false
-folder: "b7"
+version: 1
