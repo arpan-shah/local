@@ -5,7 +5,7 @@ config:
   endpoint: "databricks_2"
   properties:
     run_name: "run name"
-    timeout_seconds: 1
+    timeout_seconds: 13
     task: "jar"
     task_properties:
       parameters:
