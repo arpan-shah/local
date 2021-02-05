@@ -4,5 +4,8 @@ job:
 config:
   endpoint: "lo_ADF_new"
   properties:
+    pipeline_name: "1"
     parameters:
-      k: "knkn\n,mm"
+      k: |-
+        knkn
+        ,mm
