@@ -5,7 +5,7 @@ config:
     parameters:
       pipe_name: "pipe_value"
       pipe_name1: "pipe_value1"
-folder: "b6/f_rename/check"
+folder: "b6/f_rename/c"
 job:
   type: "external"
 version: 1
