@@ -1,11 +1,11 @@
+version: 1
+job:
+  type: "external"
 config:
   endpoint: "ADF1"
   properties:
-    pipeline_name: "pipe name"
+    pipeline_name: "1"
     parameters:
       pipe_name: "pipe_value"
       pipe_name1: "pipe_value1"
 folder: "b7/f_rename/c"
-job:
-  type: "external"
-version: 1
