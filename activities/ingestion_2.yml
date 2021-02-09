@@ -2,19 +2,33 @@ version: 1
 job:
   type: "ingestion"
 source:
-  endpoint: "lfs_7"
+  endpoint: "jdbc_1"
   properties:
-    format: "delimited"
-    charset: "UTF-8"
-    partial_load: false
-    control_file:
-      extension: "ctl"
     format_properties:
-      column_delimiter: ","
-      quote_delimiter: "\""
-      escape_char: "\\\\"
-      contains_header: true
-      infer_schema: false
       clean_column_name: false
-      trim_white_space: "none"
-    processed_file_path: "processed/"
+schema:
+  schema_derivation_strategy: "source"
+  strict_schema_check: true
+  discard: false
+  columns:
+  - name: "abc_de"
+    transform_sql:
+      value: "`abc_de` || 'xx'"
+    nullable:
+      value: true
+    validate_sql:
+      value: "`abc_de` is not null"
+  - name: "_abcde"
+    transform_sql:
+      value: "`_abcde` || 'xx'"
+    nullable:
+      value: true
+    validate_sql:
+      value: "`_abcde` is not null "
+  - name: "_"
+    transform_sql:
+      value: "`_` || 'xx'"
+    nullable:
+      value: true
+    validate_sql:
+      value: "`_` is not null"
