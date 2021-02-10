@@ -4,7 +4,6 @@ job:
 housekeeping:
   endpoint: "hive_1"
   properties: {}
-  operation: "delete"
   reference_point:
     reference_type: "current_time"
   retention_strategies:
