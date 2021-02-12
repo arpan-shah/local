@@ -23,7 +23,10 @@ schema:
   columns:
   - name: "a"
     transform_sql:
-      value: "a  \nb  \nc"
+      value: |-
+        a
+        b
+        c
     nullable:
       value: true
 target:
