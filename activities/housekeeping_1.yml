@@ -3,7 +3,11 @@ job:
   type: "housekeeping"
 housekeeping:
   endpoint: "hive_1"
-  properties: {}
+  properties:
+    table: |-
+      a
+      b
+        c
   operation: "delete"
   reference_point:
     reference_type: "current_time"
