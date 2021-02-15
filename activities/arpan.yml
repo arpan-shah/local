@@ -1,7 +1,8 @@
-version: 1
+folder: "/a"
 job:
   type: "ingestion"
 schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
   discard: true
+version: 1
