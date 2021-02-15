@@ -4,7 +4,7 @@ job:
 source:
   endpoint: "jdbc_1"
   properties:
-    query: ""
+    table: "LND_FIN.VW_RC_LPG_F_GL_JOURNAL_INCREMENTAL"
     format_properties:
       clean_column_name: false
 schema:
