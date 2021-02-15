@@ -12,4 +12,10 @@ schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
   discard: true
+  columns:
+  - name: "aa"
+    transform_sql:
+      value: "b || c"
+    nullable:
+      value: true
 folder: "/1"
