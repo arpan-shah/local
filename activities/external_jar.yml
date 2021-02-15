@@ -18,4 +18,4 @@ config:
       repo: "maven_repo"
       exclusions:
       - "maven_excl"
-folder: "/ / /"
+folder: "/ /a/ /"
