@@ -1,4 +1,4 @@
-folder: "/abcd1"
+folder: "/abcd2"
 job:
   type: "ingestion"
 schema:
