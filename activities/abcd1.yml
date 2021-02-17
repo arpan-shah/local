@@ -1,20 +1,6 @@
-version: 1
+folder: "/a/b1/c"
 job:
   type: "ingestion"
-source:
-  endpoint: "recent_1"
-  properties:
-    format: "delimited"
-    charset: "UTF-8"
-    partial_load: false
-    format_properties:
-      column_delimiter: ","
-      quote_delimiter: "\""
-      escape_char: "\\\\"
-      contains_header: true
-      infer_schema: false
-      clean_column_name: false
-      trim_white_space: "none"
 schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
@@ -35,4 +21,18 @@ schema:
         b
     nullable:
       value: true
-folder: "/a//b///c"
+source:
+  endpoint: "recent_1"
+  properties:
+    format: "delimited"
+    charset: "UTF-8"
+    partial_load: false
+    format_properties:
+      column_delimiter: ","
+      quote_delimiter: "\""
+      escape_char: "\\\\"
+      contains_header: true
+      infer_schema: false
+      clean_column_name: false
+      trim_white_space: "none"
+version: 1
