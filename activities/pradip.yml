@@ -1,4 +1,4 @@
-folder: "/ /a                                                                           /"
+folder: "/space1/a                                                                           /"
 job:
   type: "ingestion"
 reject:
