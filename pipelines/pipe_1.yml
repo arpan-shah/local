@@ -1,6 +1,8 @@
 version: 1
 description: ""
 parallel: 20
-properties: {}
-jobs: []
+properties:
+  auto_dependency: false
+jobs:
+- "ingestion_3"
 folder: "/folder2"
