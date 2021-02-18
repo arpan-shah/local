@@ -1,12 +1,12 @@
 version: 1
 job:
-  type: "processing"
+  type: "ingestion"
   tags:
   - "tag1"
   - "tag2"
-  - "tag5"
-folder: "/same3"
+  - "tag6"
 schema:
-  discard: true
   schema_derivation_strategy: "source"
   strict_schema_check: true
+  discard: true
+folder: "/same6"
