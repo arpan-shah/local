@@ -4,9 +4,10 @@ job:
 source:
   endpoint: "recent_1"
   properties:
+    source_file_pattern: "s1"
     format: "json"
-    format_properties:
-      multiline: false
-    source_file_pattern: "s"
     charset: "UTF-8"
     partial_load: false
+    format_properties:
+      clean_column_name: false
+      multiline: false
