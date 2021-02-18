@@ -2,7 +2,7 @@ version: 1
 job:
   type: "ingestion"
   tags:
-  - "tag1"
+  - "tag4"
   - "tag2"
   - "tag3"
 schema:
