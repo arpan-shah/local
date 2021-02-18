@@ -1,7 +1,4 @@
 version: 1
-metadata: 
-  tags: 
-    - tag1
 description: ""
 parallel: 1
 properties:
