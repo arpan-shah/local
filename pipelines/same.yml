@@ -1,6 +1,11 @@
 version: 1
+metadata:
+  tags:
+  - "tag1"
+  - "tag2"
 description: ""
 parallel: 1
-properties: {}
+properties:
+  auto_dependency: false
 jobs: []
 folder: "/same1"
