@@ -9,4 +9,4 @@ parallel: 1
 properties:
   auto_dependency: false
 jobs: []
-folder: "/same6"
+folder: "/same1/same2/same3"
