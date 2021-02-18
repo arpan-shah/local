@@ -1,6 +1,9 @@
 version: 1
 job:
   type: "ingestion"
+  tags:
+  - "tag1"
+  - "tag2"
 schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
