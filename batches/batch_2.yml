@@ -2,4 +2,4 @@ version: 1
 additional_param:
 - "location"
 context_stage_mappings: []
-folder: "/a/n"
+folder: "//n"
