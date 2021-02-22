@@ -1,30 +1,6 @@
-folder: "/space1/a                                                                           /"
+version: 1
 job:
   type: "ingestion"
-reject:
-  endpoint: "recent_1"
-  failure_threshold: 100
-  properties:
-    format: "delimited"
-    path: "reject"
-    charset: "UTF-8"
-    preserve_hierarchy: false
-    format_properties:
-      column_delimiter: ","
-      quote_delimiter: "\""
-      contains_header: true
-      merge_file: false
-schema:
-  schema_derivation_strategy: "source"
-  strict_schema_check: true
-  discard: true
-  columns:
-  - name: "first_name"
-    data_type:
-      value: "int"
-      validate: true
-    nullable:
-      value: true
 source:
   endpoint: "recent_1"
   properties:
@@ -38,6 +14,17 @@ source:
       escape_char: "\\\\"
       contains_header: true
       infer_schema: false
+schema:
+  schema_derivation_strategy: "source"
+  strict_schema_check: true
+  discard: true
+  columns:
+  - name: "first_name"
+    data_type:
+      value: "int"
+      validate: true
+    nullable:
+      value: true
 target:
   endpoint: "recent_1"
   properties:
@@ -50,4 +37,17 @@ target:
       quote_delimiter: "\""
       contains_header: true
       merge_file: false
-version: 1
+reject:
+  endpoint: "recent_1"
+  failure_threshold: 100
+  properties:
+    format: "delimited"
+    path: "reject"
+    charset: "UTF-8"
+    preserve_hierarchy: false
+    format_properties:
+      column_delimiter: ","
+      quote_delimiter: "\""
+      contains_header: true
+      merge_file: false
+folder: "/space 2/a                                                                           /"
