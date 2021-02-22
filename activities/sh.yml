@@ -1,13 +1,6 @@
-version: 1
+folder: "/2"
 job:
   type: "ingestion"
-source:
-  endpoint: "jdbc_datastore_1"
-  properties:
-    table: "LND_FIN.VW_RC_LPG_F_GL_JOURNAL_INCREMENTAL"
-    filter: "snapshot_dt BETWEEN (     CASE       WHEN          (            Substring('${business_date}', 5, 1) = '-'          )       THEN         Cast('${business_date}' AS DATE)        ELSE         Cast(LEFT('${business_date}', 8) AS DATE)     END ) AND Dateadd(day, 1,     CASE       WHEN          (            Substring('${business_date}', 5, 1) = '-'          )       THEN         Cast('${business_date}' AS DATE)        ELSE         Cast(LEFT('${business_date}', 8) AS DATE)     END )"
-    format_properties:
-      clean_column_name: false
 schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
@@ -18,4 +11,11 @@ schema:
       value: "b || c"
     nullable:
       value: true
-folder: "/1"
+source:
+  endpoint: "jdbc_datastore_1"
+  properties:
+    table: "LND_FIN.VW_RC_LPG_F_GL_JOURNAL_INCREMENTAL"
+    filter: "snapshot_dt BETWEEN (     CASE       WHEN          (            Substring('${business_date}', 5, 1) = '-'          )       THEN         Cast('${business_date}' AS DATE)        ELSE         Cast(LEFT('${business_date}', 8) AS DATE)     END ) AND Dateadd(day, 1,     CASE       WHEN          (            Substring('${business_date}', 5, 1) = '-'          )       THEN         Cast('${business_date}' AS DATE)        ELSE         Cast(LEFT('${business_date}', 8) AS DATE)     END )"
+    format_properties:
+      clean_column_name: false
+version: 1

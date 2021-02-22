@@ -2,7 +2,7 @@ config:
   endpoint: "databricks_1"
   properties:
     task: "notebook"
-folder: "/1/2/3"
+folder: "/2/2/3"
 job:
   type: "external"
   tags:
