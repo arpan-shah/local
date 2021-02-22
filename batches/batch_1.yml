@@ -7,4 +7,4 @@ context_stage_mappings:
   stages:
   - name: "STG"
   period: 1
-folder: "/b/a4"
+folder: "/b3/a4"
