@@ -1,20 +1,6 @@
-version: 1
+folder: "/a"
 job:
   type: "ingestion"
-source:
-  endpoint: "recent_1"
-  properties:
-    format: "delimited"
-    charset: "UTF-8"
-    partial_load: false
-    format_properties:
-      column_delimiter: ","
-      quote_delimiter: "\""
-      escape_char: "\\\\"
-      contains_header: true
-      infer_schema: false
-      clean_column_name: false
-      trim_white_space: "none"
 schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
@@ -36,6 +22,20 @@ schema:
         from ${p_amdm_fnd_db}.student where w_business_date = cast('${LAST_BUSINESS_DATE}' as date)
     nullable:
       value: true
+source:
+  endpoint: "recent_1"
+  properties:
+    format: "delimited"
+    charset: "UTF-8"
+    partial_load: false
+    format_properties:
+      column_delimiter: ","
+      quote_delimiter: "\""
+      escape_char: "\\\\"
+      contains_header: true
+      infer_schema: false
+      clean_column_name: false
+      trim_white_space: "none"
 target:
   endpoint: "LFS_1"
   properties:
@@ -47,3 +47,4 @@ target:
       quote_delimiter: "\""
       contains_header: true
       merge_file: true
+version: 1
