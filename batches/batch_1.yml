@@ -3,6 +3,7 @@ context_stage_mappings:
 - context: {}
   stage_pairs:
   - "STG,FND,SNP"
+  - "STG,FND"
   stages:
   - name: "STG"
   period: 1
