@@ -50,4 +50,4 @@ reject:
       quote_delimiter: "\""
       contains_header: true
       merge_file: false
-folder: "/space 2/a                                                                           /"
+folder: "/same4/space 2/a                                                                           /"
