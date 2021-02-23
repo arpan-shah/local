@@ -1,13 +1,10 @@
-folder: "/folder1/folder11"
+version: 1
 job:
   type: "ingestion"
-schema:
-  schema_derivation_strategy: "source"
-  strict_schema_check: true
-  discard: true
 source:
   endpoint: "recent_1"
   properties:
+    source_file_pattern: "a"
     format: "delimited"
     charset: "UTF-8"
     partial_load: false
@@ -18,4 +15,9 @@ source:
       contains_header: true
       infer_schema: false
       clean_column_name: false
-version: 1
+      trim_white_space: "none"
+schema:
+  schema_derivation_strategy: "source"
+  strict_schema_check: true
+  discard: true
+folder: "/folder1/folder11"
