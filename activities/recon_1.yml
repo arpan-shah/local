@@ -1,7 +1,9 @@
 version: 1
 job:
-  type: "recon"
+  type: "ingestion"
 source:
-  endpoint: "jdbc_2"
+  endpoint: "test_3"
   properties:
-    sql: ""
+    format_properties:
+      clean_column_name: false
+folder: "/zzzzzzz/zz"
