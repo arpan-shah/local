@@ -4,7 +4,6 @@ job:
 source:
   endpoint: "recent_1"
   properties:
-    source_file_pattern: "a"
     format: "delimited"
     charset: "UTF-8"
     partial_load: false
