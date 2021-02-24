@@ -19,4 +19,4 @@ schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
   discard: true
-folder: "/same4/space 2/a                                                                           /aq"
+folder: "//aq"
