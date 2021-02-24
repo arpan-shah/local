@@ -3,4 +3,6 @@ job:
   type: "external"
 config:
   endpoint: "test_3"
+  properties:
+    script: "k"
 folder: "/a/r/p/a/n/"
