@@ -2,35 +2,5 @@ version: 1
 job:
   type: "external"
 config:
-  endpoint: "databricks_2"
-  properties:
-    run_name: "run name"
-    timeout_seconds: 24
-    task: "jar"
-    task_properties:
-      parameters:
-      - "sdsd"
-      - "asas"
-    libraries:
-    - type: "whl"
-      file_path: "c1"
-    - type: "pypi"
-      package: "p_package"
-      repo: "p_repo"
-    - type: "maven"
-      coordinates: "m_co"
-      repo: "m_repo1"
-      exclusions:
-      - "m:ex"
-      - "m1:ex1"
-    - type: "cran"
-      package: "cr_pac"
-      repo: "cr_repo"
-    - type: "jar"
-      file_path: "abcd"
-    - type: "maven"
-      coordinates: "a"
-      repo: "a"
-      exclusions:
-      - "a"
+  endpoint: "test_3"
 folder: "/a/r/p/a/n/"
