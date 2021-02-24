@@ -7,4 +7,4 @@ config:
   endpoint: "databricks_1"
   properties:
     task: "notebook"
-folder: "/2/2/3"
+folder: "//2/3"
