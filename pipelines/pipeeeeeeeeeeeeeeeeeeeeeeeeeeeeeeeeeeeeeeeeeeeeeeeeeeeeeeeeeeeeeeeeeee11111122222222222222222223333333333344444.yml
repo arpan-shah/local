@@ -5,3 +5,4 @@ properties:
   auto_dependency: false
 jobs:
 - "test1"
+- "ing_2"
