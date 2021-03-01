@@ -1,3 +1,13 @@
 version: 1
-context_stage_mappings: []
+context_stage_mappings:
+- context: {}
+  stages:
+  - name: "STG"
+    job_groups:
+    - "pipe_5"
+  - name: "SNP"
+    job_groups:
+    - "pipe_4"
+    - "pipe_2"
+    - "pipe_8"
 folder: "/a/p"
