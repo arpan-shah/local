@@ -3,7 +3,8 @@ description: ""
 parallel: 1
 properties:
   auto_dependency: false
-jobs: []
+jobs:
+- "ing_1"
 spark_properties:
   spark_version: "7.0.x-hls-scala2.12"
 folder: "/"
