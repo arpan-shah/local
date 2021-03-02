@@ -12,4 +12,4 @@ housekeeping:
     - a: "a"
     day_of_week: 3
     strict_retention_period_end: false
-folder: "/a"
+folder: "/x"
