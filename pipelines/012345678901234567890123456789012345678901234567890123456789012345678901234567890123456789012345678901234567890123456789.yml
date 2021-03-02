@@ -4,3 +4,4 @@ parallel: 2
 properties:
   auto_dependency: false
 jobs: []
+folder: "/long"
