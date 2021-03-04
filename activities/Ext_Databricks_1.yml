@@ -5,4 +5,4 @@ config:
   endpoint: "test_3"
   properties:
     script: "k"
-folder: "/a/r/xx"
+folder: "/a/n"
