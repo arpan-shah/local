@@ -4,6 +4,7 @@ job:
 source:
   endpoint: "test_job_run"
   properties:
+    source_file_pattern: "1"
     format: "delimited"
     charset: "UTF-8"
     partial_load: false
