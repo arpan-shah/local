@@ -47,4 +47,4 @@ target:
       quote_delimiter: "\""
       contains_header: true
       merge_file: true
-folder: "/12/a"
+folder: "/"
