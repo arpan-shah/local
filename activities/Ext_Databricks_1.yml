@@ -5,4 +5,4 @@ config:
   endpoint: "test_3"
   properties:
     script: "klm"
-folder: "/1/2"
+folder: "/1/12"
