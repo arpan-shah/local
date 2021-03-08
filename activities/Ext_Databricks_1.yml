@@ -4,5 +4,5 @@ job:
 config:
   endpoint: "test_3"
   properties:
-    script: "klm"
+    script: "klmm"
 folder: "/1/12"
