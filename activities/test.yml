@@ -27,4 +27,4 @@ target:
     preserve_hierarchy: false
     format_properties:
       merge_file: false
-folder: "/1/a/1"
+folder: "/1"
