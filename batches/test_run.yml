@@ -1,2 +1,7 @@
 version: 1
-context_stage_mappings: []
+context_stage_mappings:
+- context: {}
+  stages:
+  - name: "STG"
+    job_groups:
+    - "test_run"
