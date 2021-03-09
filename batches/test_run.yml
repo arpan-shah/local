@@ -1,6 +1,8 @@
 version: 1
 context_stage_mappings:
 - context: {}
+  stage_pairs:
+  - "STG"
   stages:
   - name: "STG"
     job_groups:
