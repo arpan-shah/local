@@ -6,3 +6,4 @@ properties:
 jobs:
 - "ingestion_3"
 - "1-2"
+folder: "/folder3"
