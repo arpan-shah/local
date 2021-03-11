@@ -6,4 +6,4 @@ context_stage_mappings:
   - name: "STG"
     job_groups:
     - "test_run"
-folder: "/a55"
+folder: "/a75"
