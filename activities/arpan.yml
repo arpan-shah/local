@@ -1,8 +1,8 @@
 version: 1
 job:
-  type: "ingestion"
+  type: "processing"
+folder: "/"
 schema:
+  discard: true
   schema_derivation_strategy: "source"
   strict_schema_check: true
-  discard: true
-folder: "/"
