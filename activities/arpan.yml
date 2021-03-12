@@ -1,8 +1,6 @@
 version: 1
 job:
   type: "processing"
-  tags:
-  - "a"
 folder: "/"
 schema:
   discard: true
