@@ -3,6 +3,7 @@ job:
   type: "processing"
   tags:
   - "a"
+  - "ar"
 folder: "/"
 schema:
   discard: true
