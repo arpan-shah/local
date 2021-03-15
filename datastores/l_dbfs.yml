@@ -1,2 +1,6 @@
 version: 1
+metadata:
+  tags:
+  - "a1"
+  - "a2"
 technology: "file"
