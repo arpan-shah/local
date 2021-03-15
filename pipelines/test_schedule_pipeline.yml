@@ -4,4 +4,4 @@ parallel: 1
 properties:
   auto_dependency: false
 jobs:
-- "test_pipeline_activity"
+- "schedule_pipeline_activity"
