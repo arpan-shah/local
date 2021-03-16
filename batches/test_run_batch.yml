@@ -5,5 +5,5 @@ context_stage_mappings:
   stages:
   - name: "STG"
     job_groups:
-    - "test_run_pipeline"
+    - "test_batch_pipeline"
 folder: "/a75"
