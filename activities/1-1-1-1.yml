@@ -20,4 +20,4 @@ schema:
   schema_derivation_strategy: "source"
   strict_schema_check: true
   discard: true
-folder: "/2"
+folder: "/3"
