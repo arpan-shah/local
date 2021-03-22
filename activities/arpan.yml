@@ -3,6 +3,9 @@ job:
   type: "processing"
   tags:
   - "ar"
+source:
+  endpoint: "test_3"
+  incremental: false
 folder: "/test_conflict"
 schema:
   discard: true
