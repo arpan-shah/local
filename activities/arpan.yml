@@ -5,6 +5,8 @@ job:
   - "ar"
 source:
   endpoint: "test_3"
+  properties:
+    table: "arpan"
   incremental: false
 folder: "/test_conflict"
 schema:
