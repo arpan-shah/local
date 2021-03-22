@@ -6,7 +6,7 @@ job:
 source:
   endpoint: "test_3"
   properties:
-    table: "arpan"
+    table: "Nimit"
   incremental: false
 folder: "/test_conflict"
 schema:
