@@ -4,6 +4,7 @@ job:
 source:
   endpoint: "recent_1"
   properties:
+    source_file_pattern: "arpan"
     format: "delimited"
     charset: "UTF-8"
     partial_load: false
