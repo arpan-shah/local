@@ -8,7 +8,7 @@ source:
   properties:
     table: "shah"
   incremental: false
-folder: "/test_conflict2"
+folder: "/test_conflict"
 schema:
   discard: true
   schema_derivation_strategy: "source"
