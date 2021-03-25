@@ -3,4 +3,5 @@ description: ""
 parallel: 1
 properties:
   auto_dependency: false
-jobs: []
+jobs:
+- "test_job_run"
