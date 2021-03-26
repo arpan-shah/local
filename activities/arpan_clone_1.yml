@@ -2,7 +2,7 @@ version: 1
 job:
   type: "processing"
   tags:
-  - "ar"
+  - "arp"
 source:
   endpoint: "test_3"
   properties:
