@@ -4,4 +4,4 @@ context_stage_mappings:
   stages:
   - name: "STG"
     job_groups:
-    - "test_batch_pipeline"
+    - "same"
