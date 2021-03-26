@@ -2,5 +2,8 @@ version: 1
 job:
   type: "processing"
 source:
-  endpoint: "test_33"
+  endpoint: "test_11"
+  properties:
+    table: "users"
+    filter: "filter"
   incremental: false
