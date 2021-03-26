@@ -1,3 +1,6 @@
 version: 1
 job:
   type: "processing"
+source:
+  endpoint: "test_3"
+  incremental: false
