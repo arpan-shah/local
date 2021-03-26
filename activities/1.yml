@@ -2,7 +2,7 @@ version: 1
 job:
   type: "processing"
 source:
-  endpoint: "test_111"
+  endpoint: "test_1"
   properties:
     table: "users"
     filter: "filter"
