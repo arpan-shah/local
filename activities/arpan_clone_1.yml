@@ -1,0 +1,15 @@
+version: 1
+job:
+  type: "processing"
+  tags:
+  - "ar"
+source:
+  endpoint: "test_3"
+  properties:
+    table: "shah"
+  incremental: false
+folder: "/2/a_test_conflicts"
+schema:
+  discard: true
+  schema_derivation_strategy: "source"
+  strict_schema_check: true
