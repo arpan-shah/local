@@ -2,5 +2,5 @@ version: 1
 job:
   type: "processing"
 source:
-  endpoint: "test_3"
+  endpoint: "test1"
   incremental: false
