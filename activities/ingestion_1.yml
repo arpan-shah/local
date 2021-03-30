@@ -39,4 +39,4 @@ target:
       quote_delimiter: "\""
       contains_header: true
       merge_file: true
-folder: "/2/a_test_conflicts"
+folder: "/2/a_t"
