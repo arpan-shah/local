@@ -4,19 +4,6 @@ parallel: 231
 properties:
   auto_dependency: false
 jobs:
-- ingestion_3:
-    spark_properties:
-      additional_arguments: "abcd"
-      executor_memory: "4g"
-      instance_pool_id: "instance"
-      num_executors: 2
-      spark_conf:
-        a: "b"
-      spark_version: "5.5.x-scala2.11"
-      workers:
-        autoscale:
-          max_workers: "3"
-          min_workers: "2"
-- "ing_1"
+- "ing_3"
 spark_properties:
   cluster_id: "cluster"
