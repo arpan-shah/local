@@ -4,6 +4,6 @@ parallel: 231
 properties:
   auto_dependency: false
 jobs:
-- "ing_3_rename"
+- "ing_3"
 spark_properties:
   cluster_id: "cluster"
