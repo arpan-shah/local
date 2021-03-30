@@ -6,7 +6,7 @@ job:
 source:
   endpoint: "test_3"
   properties:
-    table: "rename1"
+    table: "rename_rename"
   incremental: false
 folder: "/2/a_test"
 schema:
