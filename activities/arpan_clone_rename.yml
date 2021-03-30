@@ -10,6 +10,6 @@ source:
   incremental: false
 folder: "/2/a_test"
 schema:
-  discard: true
+  discard: false
   schema_derivation_strategy: "source"
   strict_schema_check: true
