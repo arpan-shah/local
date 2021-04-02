@@ -6,7 +6,7 @@ job:
 source:
   endpoint: "test_3"
   properties:
-    table: "shah1"
+    table: "shah34"
   incremental: false
 folder: "/2"
 schema:
