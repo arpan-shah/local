@@ -9,7 +9,7 @@ jobs:
 - "ing_2"
 - "ing_3"
 - "ing_5"
-- "ing6"
+- "ing65"
 spark_properties:
   workers:
     num_workers: "2"
