@@ -8,7 +8,7 @@ source:
   properties:
     table: "shah1"
   incremental: false
-folder: "/2/arpan"
+folder: "/2"
 schema:
   discard: true
   schema_derivation_strategy: "source"
