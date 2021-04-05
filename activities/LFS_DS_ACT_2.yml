@@ -2,7 +2,7 @@ version: 1
 job:
   type: "ingestion"
 source:
-  endpoint: "LFS_DS_1"
+  endpoint: "LFS_DS_3"
   properties:
     format: "delimited"
     charset: "UTF-8"
