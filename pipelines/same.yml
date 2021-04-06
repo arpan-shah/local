@@ -5,3 +5,4 @@ properties:
   auto_dependency: false
 jobs:
 - "same"
+- "test_job_run"
