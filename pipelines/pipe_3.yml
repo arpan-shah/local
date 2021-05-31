@@ -10,6 +10,7 @@ jobs:
       retry_interval: "2"
       retry_status:
       - "FAILED"
+      - "WARNING"
     spark_properties: {}
     timeout_properties:
       timeout_seconds: 43
