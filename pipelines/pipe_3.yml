@@ -11,6 +11,7 @@ jobs:
       retry_status:
       - "FAILED"
     spark_properties: {}
-    timeout_properties: {}
+    timeout_properties:
+      timeout_seconds: 43
 spark_properties:
   cluster_id: "cluster"
