@@ -4,6 +4,13 @@ parallel: 231
 properties:
   auto_dependency: false
 jobs:
-- "ing_4"
+- ing_4:
+    retry_properties:
+      max_retry: "54"
+      retry_interval: "2"
+      retry_status:
+      - "FAILED"
+    spark_properties: {}
+    timeout_properties: {}
 spark_properties:
   cluster_id: "cluster"
